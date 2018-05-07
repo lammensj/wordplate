@@ -1,6 +1,7 @@
 {
     "name": "lammensj/wordplate",
     "description": "A modern WordPress stack built with Composer",
+    "type": "project",
     "keywords": ["wordplate", "wordpress", "boilerplate", "plate"],
     "license": "MIT",
     "require": {
