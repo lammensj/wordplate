@@ -42,6 +42,7 @@
             "config-default-path": "../grumphp.yml"
         }
     },
+    "minimum-stability": "dev",
     "config": {
         "preferred-install": "dist",
         "optimize-autoloader": true,
