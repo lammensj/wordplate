@@ -14,6 +14,12 @@
         "wpackagist-plugin/mailmunch": "^3.1",
         "wpackagist-plugin/wordpress-seo": "^7.4"
     },
+    "require-dev": {
+        "phpmd/phpmd": "^2.6",
+        "phpro/grumphp": "^0.14.0",
+        "squizlabs/php_codesniffer": "^3.2",
+        "wp-coding-standards/wpcs": "^0.14.1"
+    },
     "repositories": [
         {
             "type": "composer",
@@ -31,7 +37,10 @@
             "public/plugins/{$name}": ["type:wordpress-plugin"],
             "public/themes/{$name}": ["type:wordpress-theme"]
         },
-        "wordpress-install-dir": "public/wordpress"
+        "wordpress-install-dir": "public/wordpress",
+        "grumphp": {
+            "config-default-path": "../grumphp.yml"
+        }
     },
     "config": {
         "preferred-install": "dist",
