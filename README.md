@@ -5,7 +5,7 @@
 A modern WordPress stack built with Composer. It simplifies the fuzziness around WordPress development.
 
 ```sh
-$ composer create-project wordplate/wordplate
+$ composer create-project lammensj/wordplate
 ```
 
 [![Build Status](https://img.shields.io/travis/wordplate/framework/master.svg?style=flat)](https://travis-ci.org/wordplate/framework)
